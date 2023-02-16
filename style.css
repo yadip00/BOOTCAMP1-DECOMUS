@@ -1,0 +1,66 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px 20px 50px;
+}
+
+.nav-kiri a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0px 30px 0px 30px;
+}
+.nav-kanan{
+    display: flex;
+    font-weight: bold;
+}
+.nav-kanan div {
+    background-color:rgb(45, 93, 184);
+    margin: 0px 10px 0px 10px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+}
+.nav-kanan div a {
+    color: black;
+    text-decoration: none;
+}
+.tengah{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 50px 0 50px ;
+}
+.kiri p {
+    font-size: 50px;
+    font-weight: bold;
+}
+.kiri .p2 {
+    font-size: 17px;
+    font-weight: 100;
+}
+.kanan img {
+    margin-left: 250px;
+    width: 70%;
+}
+.button{
+    display: flex;
+}
+.B1{
+    margin-right: 20px;
+    padding: 7px 30px 7px 30px ;
+    border: 2px solid palevioletred;
+    color: palevioletred;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.B2{
+    padding: 7px 30px 7px 30px ;
+    background-color: palevioletred;
+    border: 2px solid palevioletred;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
